@@ -1455,8 +1455,10 @@ namespace Integra7Random
                     Int32 toneInList = commonState.toneList.Get(module.BankMSB, module.BankLSB, (byte)programChangeNumber);
                     button.Text = "Part " + (part + 1).ToString() + ": " + module.Name + ", " + commonState.toneList.Tones[toneInList][1] + ", " + commonState.toneList.Tones[toneInList][3];
                     commonState.midi.ProgramChange(part, module.BankMSB, module.BankLSB, (byte)(programChangeNumber + 1));
-                    DrumKeyList = drumKeyAssignLists.NameList(commonState.toneList.Tones[toneInList][0], commonState.toneList.Tones[toneInList][3]);
-                    //commonState.currentTone.
+                    if (part == 9)
+                    {
+                        DrumKeyList = drumKeyAssignLists.NameList(commonState.toneList.Tones[toneInList][0], commonState.toneList.Tones[toneInList][3]);
+                    }
                     break;
                 }
             }
