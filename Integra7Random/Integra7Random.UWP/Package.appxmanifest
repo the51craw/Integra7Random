@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="34533MrMartin.RolandINTEGRA-7Randomstudiosetgenera" Publisher="CN=58B8F239-F020-4CC5-9BF5-DC3993969183" Version="1.1.6.0" />
+  <Identity Name="34533MrMartin.RolandINTEGRA-7Randomstudiosetgenera" Publisher="CN=58B8F239-F020-4CC5-9BF5-DC3993969183" Version="1.1.7.0" />
   <mp:PhoneIdentity PhoneProductId="5bb8dfdd-fc4b-4c67-b5b9-243cc5cc4532" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Roland INTEGRA-7 Random studio set generator</DisplayName>
